@@ -16,7 +16,7 @@ while True:
                     print('저런....1이나왓네요...0점!!')
                     break
                 else:
-                    my_turn_point == my_turn_point + num
+                    my_turn_point = my_turn_point + num
                     print(f'오호 {my_turn_point}만큼 모였어요!!')
             elif mine == 'Stop':
                 my_point = my_point + my_turn_point
@@ -35,7 +35,7 @@ while True:
                     print(f'컴퓨터 빵점....ㅠㅠ')
                     break
             else:
-                com_turn_point == com_turn_point + num_c
+                com_turn_point = com_turn_point + num_c
                 print(f'컴퓨터가 모은 점수는 {com_turn_point}이에요!!')
                 while True:
                     com = random.randint(1,2)
@@ -48,7 +48,7 @@ while True:
                             print(f'컴퓨터 빵점....ㅠㅠ')
                             break
                         else:
-                            com_turn_point == com_turn_point + num_cc
+                            com_turn_point = com_turn_point + num_cc
                             print(f' {my_turn_point}만큼 모였어요!!')
                     else:
                         com_point = com_point + com_turn_point
