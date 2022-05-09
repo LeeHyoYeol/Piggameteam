@@ -1,1 +1,1 @@
-print('you can do make this game algoithm!!')
+for i in range(10)
