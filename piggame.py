@@ -84,5 +84,3 @@ while com_point < 100 and my_point < 100:
                     else:
                         turn += 1
                         break
-           
-
